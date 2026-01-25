@@ -1,5 +1,6 @@
 package net.generic_user94.nuncanulus;
 
+import net.generic_user94.nuncanulus.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -31,10 +32,10 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(NuncAnulus.MODID)
+@Mod(NuncAnulus.MOD_ID)
 public class NuncAnulus {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "nuncanulus";
+    public static final String MOD_ID = "nuncanulus";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
@@ -50,6 +51,8 @@ public class NuncAnulus {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -63,7 +66,9 @@ public class NuncAnulus {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ANULITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
