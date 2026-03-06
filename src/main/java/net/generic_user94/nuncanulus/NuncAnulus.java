@@ -1,6 +1,7 @@
 package net.generic_user94.nuncanulus;
 
 import net.generic_user94.nuncanulus.block.ModBlocks;
+import net.generic_user94.nuncanulus.item.ModCreativeModeTabs;
 import net.generic_user94.nuncanulus.item.ModItems;
 import org.slf4j.Logger;
 
@@ -52,6 +53,8 @@ public class NuncAnulus {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -68,16 +71,7 @@ public class NuncAnulus {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ANULITE);
-            event.accept(ModItems.RAW_ANULITE);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.ANULITE_BLOCK);
-            event.accept(ModBlocks.RAW_ANULITE_BLOCK);
-            event.accept(ModBlocks.ANULITE_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
