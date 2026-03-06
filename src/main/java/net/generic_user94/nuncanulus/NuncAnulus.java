@@ -76,6 +76,7 @@ public class NuncAnulus {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ANULITE_BLOCK);
             event.accept(ModBlocks.RAW_ANULITE_BLOCK);
+            event.accept(ModBlocks.ANULITE_ORE);
         }
     }
 
