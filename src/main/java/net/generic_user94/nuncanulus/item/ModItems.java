@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(NuncAnulus.MOD_ID);
 
+
     public static final DeferredItem<Item> ANULITE = ITEMS.register("anulite",
             () -> new Item(new Item.Properties()));
 
