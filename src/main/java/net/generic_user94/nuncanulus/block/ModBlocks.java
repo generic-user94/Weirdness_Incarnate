@@ -2,6 +2,7 @@ package net.generic_user94.nuncanulus.block;
 
 import net.generic_user94.nuncanulus.NuncAnulus;
 import net.generic_user94.nuncanulus.block.custom.MagicBlock;
+import net.generic_user94.nuncanulus.block.custom.MagicBlockTwo;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -40,6 +41,11 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .sound(SoundType.NETHER_ORE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK_TWO = registerBlock("magic_block_two",
+            () -> new MagicBlockTwo(BlockBehaviour.Properties.of()
                     .strength(2f)
                     .sound(SoundType.NETHER_ORE)));
 

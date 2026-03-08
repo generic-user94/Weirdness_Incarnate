@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_ANULITE_BLOCK);
                         output.accept(ModBlocks.ANULITE_ORE);
                         output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModBlocks.MAGIC_BLOCK_TWO);
 
                     }).build());
 
