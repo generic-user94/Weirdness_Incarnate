@@ -40,6 +40,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ANULITE_HOE.get());
         handheldItem(ModItems.ANULITE_SHOVEL.get());
 
+        handheldItem(ModItems.ANULITE_HAMMER.get());
+
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

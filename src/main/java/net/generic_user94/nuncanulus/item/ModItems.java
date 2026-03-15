@@ -2,6 +2,7 @@ package net.generic_user94.nuncanulus.item;
 
 import net.generic_user94.nuncanulus.NuncAnulus;
 import net.generic_user94.nuncanulus.item.custom.ChiselItem;
+import net.generic_user94.nuncanulus.item.custom.HammerItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -48,6 +49,10 @@ public class ModItems {
     public static final DeferredItem<HoeItem> ANULITE_HOE = ITEMS.register("anulite_hoe",
             () -> new HoeItem(ModToolTiers.ANULITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ANULITE, 5, 3f))));
+
+    public static final DeferredItem<HammerItem> ANULITE_HAMMER = ITEMS.register("anulite_hammer",
+            () -> new HammerItem(ModToolTiers.ANULITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ANULITE, 7, 1f))));
 
 
     public static void register(IEventBus eventBus){

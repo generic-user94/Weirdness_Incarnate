@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ANULITE_SHOVEL);
                         output.accept(ModItems.ANULITE_HOE);
 
+                        output.accept(ModItems.ANULITE_HAMMER);
+
                     }).build());
 
 

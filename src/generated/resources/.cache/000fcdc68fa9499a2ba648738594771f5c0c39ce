@@ -1,9 +1,10 @@
-// 1.21.1	2026-03-11T21:19:01.9552447	Item Models: nuncanulus
+// 1.21.1	2026-03-14T23:33:56.0134094	Item Models: nuncanulus
 5bb0fe53ba99123c3157cd90a63ec5873deeb3f2 assets/nuncanulus/models/item/anulite.json
 223c5fe6b4915d62f42b8b60e96c3f26a080b3e4 assets/nuncanulus/models/item/anulite_axe.json
 fae5567f5ef9f58f8c579f5d8e397e9da238ae5b assets/nuncanulus/models/item/anulite_button.json
 42983e465b07a0eda29886e9b23161bd5fe228b7 assets/nuncanulus/models/item/anulite_door.json
 89f2237c764a3244b6afd897a6b4e79111a5c66f assets/nuncanulus/models/item/anulite_fence.json
+f120607fdf710a6c5a63d3bcdd9c166b9c207dac assets/nuncanulus/models/item/anulite_hammer.json
 7034579a435782493e9bb4981b540158c063e1fc assets/nuncanulus/models/item/anulite_hoe.json
 0524918a75c345a2e164c5b9c26ac2df560eda08 assets/nuncanulus/models/item/anulite_pickaxe.json
 49747afd2acd6890e5b9f58e8aac8513d4e9f34b assets/nuncanulus/models/item/anulite_shovel.json
