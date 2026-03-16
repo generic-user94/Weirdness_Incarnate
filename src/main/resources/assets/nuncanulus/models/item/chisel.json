@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nuncanulus:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "nuncanulus:used": 1
+      },
+      "model": "nuncanulus:item/chisel_used"
+    }
+  ]
+}

@@ -47,7 +47,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ANULITE.get());
         basicItem(ModItems.RAW_ANULITE.get());
 
-        handheldItem(ModItems.CHISEL.get());
+        //handheldItem(ModItems.CHISEL.get());
         basicItem(ModItems.BURGER.get());
 
         buttonItem(ModBlocks.ANULITE_BUTTON, ModBlocks.ANULITE_BLOCK);

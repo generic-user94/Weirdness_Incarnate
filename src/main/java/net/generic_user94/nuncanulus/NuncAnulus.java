@@ -3,6 +3,10 @@ package net.generic_user94.nuncanulus;
 import net.generic_user94.nuncanulus.block.ModBlocks;
 import net.generic_user94.nuncanulus.component.ModDataComponents;
 import net.generic_user94.nuncanulus.item.ModItems;
+import net.generic_user94.nuncanulus.util.ModItemProperties;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -64,5 +68,16 @@ public class NuncAnulus {
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
+
+
+    }
+
+    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
+    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            ModItemProperties.addCustomItemProperties();
+        }
     }
 }
