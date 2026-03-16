@@ -42,6 +42,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.HOES)
                 .add(ModItems.ANULITE_HOE.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ANULITE_HELMET.get())
+                .add(ModItems.ANULITE_CHESTPLATE.get())
+                .add(ModItems.ANULITE_LEGGINGS.get())
+                .add(ModItems.ANULITE_BOOTS.get());
+
     }
 
 }

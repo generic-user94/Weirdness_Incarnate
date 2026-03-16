@@ -1,7 +1,8 @@
-// 1.21.1	2026-03-11T21:19:01.9865978	Tags for minecraft:item mod id nuncanulus
+// 1.21.1	2026-03-15T19:56:59.4500615	Tags for minecraft:item mod id nuncanulus
 b58e8bfa5dd741834cdd051403b6c92d66f6304f data/minecraft/tags/item/axes.json
 94e1088a867923a6a31a702c736e2a9655d9f364 data/minecraft/tags/item/hoes.json
 c7717ae3c4c26ad3dbb95261a69e1fa0a41d4770 data/minecraft/tags/item/pickaxes.json
 b8e5d551810dc8096cebb7135da3d27cb116acca data/minecraft/tags/item/shovels.json
 678b8c30ee012910a8b9fdfe763905e3f97e28de data/minecraft/tags/item/swords.json
+75da59091e6f76995f571d4ecd026addf25d11ee data/minecraft/tags/item/trimmable_armor.json
 1f4fc0701e61afa3a3cda6bbbb3c8df915a81a98 data/nuncanulus/tags/item/transformable_items.json

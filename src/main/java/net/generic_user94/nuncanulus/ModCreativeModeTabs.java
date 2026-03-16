@@ -37,6 +37,11 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.ANULITE_HAMMER);
 
+                        output.accept(ModItems.ANULITE_HELMET);
+                        output.accept(ModItems.ANULITE_CHESTPLATE);
+                        output.accept(ModItems.ANULITE_LEGGINGS);
+                        output.accept(ModItems.ANULITE_BOOTS);
+
                     }).build());
 
 

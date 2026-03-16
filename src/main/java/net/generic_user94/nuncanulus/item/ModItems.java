@@ -54,6 +54,23 @@ public class ModItems {
             () -> new HammerItem(ModToolTiers.ANULITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ANULITE, 7, 1f))));
 
+    public static final DeferredItem<ArmorItem> ANULITE_HELMET = ITEMS.register("anulite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ANULITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.HELMET.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ANULITE_CHESTPLATE = ITEMS.register("anulite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ANULITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ANULITE_LEGGINGS = ITEMS.register("anulite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ANULITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ANULITE_BOOTS = ITEMS.register("anulite_boots",
+            () -> new ArmorItem(ModArmorMaterials.ANULITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.BOOTS.getDurability(19))));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
