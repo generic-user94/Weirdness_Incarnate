@@ -3,6 +3,7 @@ package net.generic_user94.nuncanulus.item;
 import net.generic_user94.nuncanulus.NuncAnulus;
 import net.generic_user94.nuncanulus.item.custom.ChiselItem;
 import net.generic_user94.nuncanulus.item.custom.HammerItem;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -70,6 +71,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ANULITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties()
                             .durability(ArmorItem.Type.BOOTS.getDurability(19))));
+
+    public static final DeferredItem<Item> ANULITE_BOW = ITEMS.register("anulite_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
 
 
     public static void register(IEventBus eventBus){

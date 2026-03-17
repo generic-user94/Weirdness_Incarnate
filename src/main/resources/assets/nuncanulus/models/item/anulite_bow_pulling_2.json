@@ -1,0 +1,6 @@
+{
+  "parent": "nuncanulus:item/anulite_bow",
+  "textures": {
+    "layer0": "nuncanulus:item/anulite_bow_pulling_2"
+  }
+}

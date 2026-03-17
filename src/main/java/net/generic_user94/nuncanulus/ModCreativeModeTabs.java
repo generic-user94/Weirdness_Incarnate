@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ANULITE_LEGGINGS);
                         output.accept(ModItems.ANULITE_BOOTS);
 
+                        output.accept(ModItems.ANULITE_BOW);
+
                     }).build());
 
 
