@@ -2,6 +2,7 @@ package net.generic_user94.nuncanulus;
 
 import net.generic_user94.nuncanulus.block.ModBlocks;
 import net.generic_user94.nuncanulus.component.ModDataComponents;
+import net.generic_user94.nuncanulus.effect.ModEffects;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.generic_user94.nuncanulus.util.ModItemProperties;
 import net.neoforged.api.distmarker.Dist;
@@ -47,6 +48,8 @@ public class NuncAnulus {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

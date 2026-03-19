@@ -43,6 +43,8 @@
   "creativetab.nuncanulus.anulite_items" : "Anulite Items",
   "creativetab.nuncanulus.anulite_blocks" : "Anulite Blocks",
 
+  "effect.nuncanulus.slimey": "Slimey",
+
   "tooltip.nuncanulus.magic_block.tooltip": "Feedback Loop (Diamond/Gold)",
   "tooltip.nuncanulus.chisel" : "Turns some blocks into other blocks. Hold Shift for more information.",
   "tooltip.nuncanulus.chisel.shift_down" : "Use on stone, end stone, oak doors, smooth stone and anulite blocks.",
