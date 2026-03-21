@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.BURGER);
+                        output.accept(ModItems.SLIME_BUCKET);
 
                         output.accept(ModItems.ANULITE_SWORD);
                         output.accept(ModItems.ANULITE_AXE);
@@ -43,6 +44,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ANULITE_BOOTS);
 
                         output.accept(ModItems.ANULITE_BOW);
+
+                        output.accept(ModItems.GECKO_SPAWN_EGG);
 
                     }).build());
 

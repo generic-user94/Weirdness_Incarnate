@@ -3,6 +3,7 @@
   "item.nuncanulus.raw_anulite": "Raw Anulite",
   "item.nuncanulus.chisel": "Chisel",
   "item.nuncanulus.burger": "Hamburger",
+  "item.nuncanulus.slime_bucket": "Bucket of Slime",
 
   "block.nuncanulus.anulite_block": "Block of Anulite",
   "block.nuncanulus.anulite_ore": "Anulite Ore",
@@ -33,6 +34,8 @@
 
   "item.nuncanulus.anulite_bow": "Anulite Bow",
 
+  "item.nuncanulus.gecko_spawn_egg": "Gecko Spawn Egg",
+
   "item.nuncanulus.anulite_hammer": "Anulite Hammer",
 
   "item.nuncanulus.anulite_helmet": "Anulite Helmet",
@@ -48,5 +51,9 @@
   "tooltip.nuncanulus.magic_block.tooltip": "Feedback Loop (Diamond/Gold)",
   "tooltip.nuncanulus.chisel" : "Turns some blocks into other blocks. Hold Shift for more information.",
   "tooltip.nuncanulus.chisel.shift_down" : "Use on stone, end stone, oak doors, smooth stone and anulite blocks.",
-  "tooltip.nuncanulus.burger.tooltip" : "YUMMY"
+  "tooltip.nuncanulus.burger.tooltip" : "YUMMY",
+
+  "entity.nuncanulus.gecko": "Gecko",
+
+  "block.minecraft.resin_block": "BEANS"
 }

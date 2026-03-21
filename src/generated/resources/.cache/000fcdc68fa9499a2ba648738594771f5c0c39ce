@@ -1,4 +1,4 @@
-// 1.21.1	2026-03-15T19:56:59.3983031	Item Models: nuncanulus
+// 1.21.1	2026-03-20T22:59:56.4030005	Item Models: nuncanulus
 5bb0fe53ba99123c3157cd90a63ec5873deeb3f2 assets/nuncanulus/models/item/anulite.json
 223c5fe6b4915d62f42b8b60e96c3f26a080b3e4 assets/nuncanulus/models/item/anulite_axe.json
 38fa891261bb8f1aaa0b2bbc7be51f85770b8c5e assets/nuncanulus/models/item/anulite_boots.json
@@ -55,5 +55,6 @@ a005f124d192353625bb6ef4369e8687506ec73f assets/nuncanulus/models/item/anulite_l
 9cd710bf33db9d5b1b8d0fdf40e354043720f880 assets/nuncanulus/models/item/anulite_sword.json
 edaf5b94b0dc52e7f80e5ff3e6a3e08e1a00ed92 assets/nuncanulus/models/item/anulite_wall.json
 bf265935b71e7b848a409cb9d94704d33cc59cf4 assets/nuncanulus/models/item/burger.json
-b1f420d1d908bbac2db384ca09a50481421d377b assets/nuncanulus/models/item/chisel.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nuncanulus/models/item/gecko_spawn_egg.json
 9e2057c7f74f2db902991aa58ef618dd4acdc4dd assets/nuncanulus/models/item/raw_anulite.json
+51b20eee05c222d60cba21b913eaa4b8e9142f77 assets/nuncanulus/models/item/slime_bucket.json

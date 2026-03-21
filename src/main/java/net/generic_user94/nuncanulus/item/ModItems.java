@@ -1,12 +1,14 @@
 package net.generic_user94.nuncanulus.item;
 
 import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.entity.ModEntities;
 import net.generic_user94.nuncanulus.item.custom.ChiselItem;
 import net.generic_user94.nuncanulus.item.custom.HammerItem;
 import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -34,6 +36,9 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+
+    public static final DeferredItem<Item> SLIME_BUCKET = ITEMS.register("slime_bucket",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SLIME)));
 
     public static final DeferredItem<SwordItem> ANULITE_SWORD = ITEMS.register("anulite_sword",
             () -> new SwordItem(ModToolTiers.ANULITE, new Item.Properties()
@@ -74,6 +79,11 @@ public class ModItems {
 
     public static final DeferredItem<Item> ANULITE_BOW = ITEMS.register("anulite_bow",
             () -> new BowItem(new Item.Properties().durability(500)));
+
+    public static final DeferredItem<Item> GECKO_SPAWN_EGG = ITEMS.register("gecko_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31afaf, 0xffac00,
+                    new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus){

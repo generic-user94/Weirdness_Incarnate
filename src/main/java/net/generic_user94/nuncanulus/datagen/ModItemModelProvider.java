@@ -49,6 +49,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //handheldItem(ModItems.CHISEL.get());
         basicItem(ModItems.BURGER.get());
+        basicItem(ModItems.SLIME_BUCKET.get());
 
         buttonItem(ModBlocks.ANULITE_BUTTON, ModBlocks.ANULITE_BLOCK);
         fenceItem(ModBlocks.ANULITE_FENCE, ModBlocks.ANULITE_BLOCK);
@@ -68,6 +69,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.ANULITE_CHESTPLATE);
         trimmedArmorItem(ModItems.ANULITE_LEGGINGS);
         trimmedArmorItem(ModItems.ANULITE_BOOTS);
+
+        withExistingParent(ModItems.GECKO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }
 
