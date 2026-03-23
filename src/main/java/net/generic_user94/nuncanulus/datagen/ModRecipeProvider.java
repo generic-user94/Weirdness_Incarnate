@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.datagen;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.block.ModBlocks;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.minecraft.core.HolderLookup;
@@ -64,7 +64,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                                                                        List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
         for(ItemLike itemlike : pIngredients) {
             SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
-                    .save(recipeOutput, NuncAnulus.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
+                    .save(recipeOutput, WeirdnessIncarnate.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
     }
 }

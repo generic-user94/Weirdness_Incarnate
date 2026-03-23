@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.block;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.block.custom.AnuliteLampBlock;
 import net.generic_user94.nuncanulus.block.custom.MagicBlock;
 import net.generic_user94.nuncanulus.block.custom.MagicBlockTwo;
@@ -15,13 +15,12 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import java.awt.*;
 import java.util.function.Supplier;
 
 public class ModBlocks {
 
     public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(NuncAnulus.MOD_ID);
+            DeferredRegister.createBlocks(WeirdnessIncarnate.MOD_ID);
 
 
     public static final DeferredBlock<Block> ANULITE_BLOCK = registerBlock("anulite_block",

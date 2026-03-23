@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.entity;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.entity.gecko.GeckoEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
-            DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, NuncAnulus.MOD_ID);
+            DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, WeirdnessIncarnate.MOD_ID);
 
 
     public static final Supplier<EntityType<GeckoEntity>> GECKO =

@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.datagen;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.generic_user94.nuncanulus.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -17,7 +17,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModItemTagProvider extends ItemTagsProvider {
 
     public ModItemTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, blockTags, NuncAnulus.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, blockTags, WeirdnessIncarnate.MOD_ID, existingFileHelper);
     }
 
     @Override

@@ -1,7 +1,6 @@
 package net.generic_user94.nuncanulus.datagen;
 
-import com.jcraft.jorbis.Block;
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.block.ModBlocks;
 import net.generic_user94.nuncanulus.block.custom.AnuliteLampBlock;
 import net.minecraft.data.PackOutput;
@@ -15,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 public class ModBlockStateProvider extends BlockStateProvider {
 
     public ModBlockStateProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
-        super(output, NuncAnulus.MOD_ID, exFileHelper);
+        super(output, WeirdnessIncarnate.MOD_ID, exFileHelper);
     }
 
     @Override
@@ -70,15 +69,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         getVariantBuilder(ModBlocks.ANULITE_LAMP.get()).forAllStates(state -> {
             if(state.getValue(AnuliteLampBlock.CLICKED)) {
                 return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("anulite_lamp_on",
-                        ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "block/" + "anulite_lamp_on")))};
+                        ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "block/" + "anulite_lamp_on")))};
             } else {
                 return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("anulite_lamp_off",
-                        ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "block/" + "anulite_lamp_off")))};
+                        ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "block/" + "anulite_lamp_off")))};
             }
         });
 
         simpleBlockItem(ModBlocks.ANULITE_LAMP.get(), models().cubeAll("anulite_lamp_on",
-                ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "block/" + "anulite_lamp_on")));
+                ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "block/" + "anulite_lamp_on")));
     }
 
 }

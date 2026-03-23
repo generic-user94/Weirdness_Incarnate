@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.util;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -19,7 +19,7 @@ public class ModTags {
 
 
         private static TagKey<Block> createTag(String name){
-            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, name));
+            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, name));
         }
     }
     public static class Items {
@@ -31,7 +31,7 @@ public class ModTags {
 
 
         private static TagKey<Item> createTag(String name){
-            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, name));
+            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, name));
         }
     }
 }

@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.util;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.component.ModDataComponents;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
@@ -12,7 +12,7 @@ public class ModItemProperties {
 
     public static void addCustomItemProperties() {
 
-        ItemProperties.register(ModItems.CHISEL.get(), ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "used"),
+        ItemProperties.register(ModItems.CHISEL.get(), ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "used"),
                 (stack, level, entity, seed) ->
                         stack.get(ModDataComponents.COORDINATES) != null ? 1f : 0f);
 

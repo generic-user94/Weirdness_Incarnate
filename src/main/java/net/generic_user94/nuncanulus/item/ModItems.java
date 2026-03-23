@@ -1,10 +1,9 @@
 package net.generic_user94.nuncanulus.item;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.entity.ModEntities;
 import net.generic_user94.nuncanulus.item.custom.ChiselItem;
 import net.generic_user94.nuncanulus.item.custom.HammerItem;
-import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -15,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.List;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(NuncAnulus.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WeirdnessIncarnate.MOD_ID);
 
 
     public static final DeferredItem<Item> ANULITE = ITEMS.register("anulite",

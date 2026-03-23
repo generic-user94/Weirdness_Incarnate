@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.event;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.entity.ModEntities;
 import net.generic_user94.nuncanulus.item.ModItems;
 import net.generic_user94.nuncanulus.item.custom.HammerItem;
@@ -22,7 +22,7 @@ import net.neoforged.neoforge.event.level.BlockEvent;
 import java.util.HashSet;
 import java.util.Set;
 
-@EventBusSubscriber(modid = NuncAnulus.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
+@EventBusSubscriber(modid = WeirdnessIncarnate.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
 public class ModEvents {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 

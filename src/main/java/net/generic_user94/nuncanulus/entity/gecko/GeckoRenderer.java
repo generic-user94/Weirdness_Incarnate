@@ -1,7 +1,7 @@
 package net.generic_user94.nuncanulus.entity.gecko;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -15,7 +15,7 @@ public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEnti
 
     @Override
     public ResourceLocation getTextureLocation(GeckoEntity geckoEntity) {
-        return ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "textures/entity/gecko/gecko_blue.png");
+        return ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "textures/entity/gecko/gecko_blue.png");
     }
 
     @Override

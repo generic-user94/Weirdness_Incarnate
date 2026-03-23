@@ -2,7 +2,7 @@ package net.generic_user94.nuncanulus.entity.gecko;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -14,7 +14,7 @@ import net.minecraft.util.Mth;
 public class GeckoModel<T extends GeckoEntity> extends HierarchicalModel<T> {
     // This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
     public static final ModelLayerLocation LAYER_LOCATION =
-            new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "gecko"), "main");
+            new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "gecko"), "main");
 
     private final ModelPart body;
     private final ModelPart head;

@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NuncAnulus.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeirdnessIncarnate.MOD_ID);
 
 
     public static final Supplier<CreativeModeTab> ANULITE_ITEMS_TAB = CREATIVE_MODE_TAB.register("anulite_items_tab",
@@ -53,7 +53,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> ANULITE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("anulite_blocks_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.ANULITE_BLOCK))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(NuncAnulus.MOD_ID, "anulite_items_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "anulite_items_tab"))
                     .title(Component.translatable("creativetab.nuncanulus.anulite_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
 

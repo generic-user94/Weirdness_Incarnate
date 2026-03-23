@@ -1,6 +1,6 @@
 package net.generic_user94.nuncanulus.event;
 
-import net.generic_user94.nuncanulus.NuncAnulus;
+import net.generic_user94.nuncanulus.WeirdnessIncarnate;
 import net.generic_user94.nuncanulus.entity.ModEntities;
 import net.generic_user94.nuncanulus.entity.gecko.GeckoModel;
 import net.generic_user94.nuncanulus.entity.gecko.GeckoEntity;
@@ -9,7 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 
-@EventBusSubscriber(modid = NuncAnulus.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = WeirdnessIncarnate.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
 
 
