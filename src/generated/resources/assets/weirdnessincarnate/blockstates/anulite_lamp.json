@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "weirdnessincarnate:block/anulite_lamp_off"
+    },
+    "clicked=true": {
+      "model": "weirdnessincarnate:block/anulite_lamp_on"
+    }
+  }
+}

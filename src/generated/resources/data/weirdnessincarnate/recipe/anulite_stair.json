@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "anulite",
+  "key": {
+    "#": {
+      "item": "weirdnessincarnate:anulite_block"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "weirdnessincarnate:anulite_stair"
+  }
+}

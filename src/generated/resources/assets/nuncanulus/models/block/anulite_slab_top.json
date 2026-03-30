@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "nuncanulus:block/anulite_block",
-    "side": "nuncanulus:block/anulite_block",
-    "top": "nuncanulus:block/anulite_block"
-  }
-}

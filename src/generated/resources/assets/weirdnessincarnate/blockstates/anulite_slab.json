@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "weirdnessincarnate:block/anulite_slab"
+    },
+    "type=double": {
+      "model": "weirdnessincarnate:block/anulite_block"
+    },
+    "type=top": {
+      "model": "weirdnessincarnate:block/anulite_slab_top"
+    }
+  }
+}

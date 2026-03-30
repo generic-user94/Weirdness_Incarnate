@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weirdnessincarnate:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "weirdnessincarnate:used": 1
+      },
+      "model": "weirdnessincarnate:item/chisel_used"
+    }
+  ]
+}

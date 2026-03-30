@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_anulite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "weirdnessincarnate:raw_anulite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "weirdnessincarnate:anulite_from_smelting_raw_anulite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_anulite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "weirdnessincarnate:anulite_from_smelting_raw_anulite"
+    ]
+  }
+}

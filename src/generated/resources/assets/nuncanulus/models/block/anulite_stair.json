@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "nuncanulus:block/anulite_block",
-    "side": "nuncanulus:block/anulite_block",
-    "top": "nuncanulus:block/anulite_block"
-  }
-}

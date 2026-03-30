@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "weirdnessincarnate:block/anulite_pressure_plate"
+    },
+    "powered=true": {
+      "model": "weirdnessincarnate:block/anulite_pressure_plate_down"
+    }
+  }
+}

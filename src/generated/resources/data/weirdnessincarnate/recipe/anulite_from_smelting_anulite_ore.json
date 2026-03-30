@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "anulite",
+  "ingredient": {
+    "item": "weirdnessincarnate:anulite_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "weirdnessincarnate:anulite"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "weirdnessincarnate:item/anulite_pickaxe"
+  }
+}

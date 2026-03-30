@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "weirdnessincarnate:block/magic_block"
+  }
+}

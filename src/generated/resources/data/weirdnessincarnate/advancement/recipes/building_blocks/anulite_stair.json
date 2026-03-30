@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_anulite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "weirdnessincarnate:anulite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "weirdnessincarnate:anulite_stair"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_anulite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "weirdnessincarnate:anulite_stair"
+    ]
+  }
+}

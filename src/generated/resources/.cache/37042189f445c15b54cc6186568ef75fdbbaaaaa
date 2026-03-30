@@ -1,8 +1,0 @@
-// 1.21.1	2026-03-11T21:19:01.974808	Tags for minecraft:block mod id nuncanulus
-7ab7cd7227eb5971a6ae2406e53c7466e4c13063 data/minecraft/tags/block/fences.json
-76e6a923d2b11fcf25fc7e08a39376927223be0c data/minecraft/tags/block/fence_gates.json
-74dce9a5e2017f6a3a3e4b6372f8ab522b921564 data/minecraft/tags/block/mineable/pickaxe.json
-74dce9a5e2017f6a3a3e4b6372f8ab522b921564 data/minecraft/tags/block/needs_iron_tool.json
-63fcc80dbf3f34611ca42122d27179f226bc5fce data/minecraft/tags/block/walls.json
-8276888c898863092709d18ea44258895a9300ce data/nuncanulus/tags/block/incorrect_for_anulite_tool.json
-32b13946c4cd1f944b029659ccce5fcb2adad4ff data/nuncanulus/tags/block/needs_anulite_tool.json

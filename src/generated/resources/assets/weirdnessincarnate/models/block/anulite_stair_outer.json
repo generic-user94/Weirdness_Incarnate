@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "weirdnessincarnate:block/anulite_block",
+    "side": "weirdnessincarnate:block/anulite_block",
+    "top": "weirdnessincarnate:block/anulite_block"
+  }
+}
