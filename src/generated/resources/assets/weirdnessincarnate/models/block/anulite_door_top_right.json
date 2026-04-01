@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "weirdnessincarnate:block/anulite_door_bottom",
-    "top": "weirdnessincarnate:block/anulite_door_top"
-  }
-}

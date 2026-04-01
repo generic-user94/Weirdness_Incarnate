@@ -4,6 +4,8 @@ import net.generic_user94.weirdnessincarnate.entity.ModEntities;
 import net.generic_user94.weirdnessincarnate.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.EntityType;
@@ -80,6 +82,15 @@ public class GeckoEntity extends Animal {
             --this.idleAnimationTimeout;
         }
 
+    }
+
+    @Override
+    public InteractionResult mobInteract(Player player, InteractionHand hand) {
+        player.getItemInHand(hand);
+        InteractionResult retval = InteractionResult.SUCCESS;
+        super.mobInteract(player, hand);
+        GeckoRightClickProcedure.pickUpGecko(this, player);
+        return retval;
     }
 
     @Override

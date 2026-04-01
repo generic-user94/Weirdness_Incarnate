@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "weirdnessincarnate:block/anulite_lamp_off"
-  }
-}

@@ -29,28 +29,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
 
         dropSelf(ModBlocks.ANULITE_BLOCK.get());
-        dropSelf(ModBlocks.MAGIC_BLOCK.get());
-        dropSelf(ModBlocks.MAGIC_BLOCK_TWO.get());
 
         add(ModBlocks.ANULITE_ORE.get(), block -> createOreDrop(ModBlocks.ANULITE_ORE.get(), ModItems.RAW_ANULITE.get()));
 
         dropSelf(ModBlocks.ANULITE_STAIR.get());
         add(ModBlocks.ANULITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.ANULITE_SLAB.get()));
-
-        dropSelf(ModBlocks.ANULITE_FENCE.get());
-        dropSelf(ModBlocks.ANULITE_FENCE_GATE.get());
-        dropSelf(ModBlocks.ANULITE_WALL.get());
-
-        dropSelf(ModBlocks.ANULITE_PRESSURE_PLATE.get());
-        dropSelf(ModBlocks.ANULITE_BUTTON.get());
-        dropSelf(ModBlocks.ANULITE_TRAPDOOR.get());
-        add(ModBlocks.ANULITE_DOOR.get(),
-                block -> createDoorTable(ModBlocks.ANULITE_DOOR.get()));
-
-        dropSelf(ModBlocks.ANULITE_LAMP.get());
-
-
 
     }
 

@@ -1,57 +1,19 @@
 {
   "item.weirdnessincarnate.anulite": "Anulite Ingot",
   "item.weirdnessincarnate.raw_anulite": "Raw Anulite",
-  "item.weirdnessincarnate.chisel": "Chisel",
   "item.weirdnessincarnate.burger": "Hamburger",
   "item.weirdnessincarnate.slime_bucket": "Bucket of Slime",
 
   "block.weirdnessincarnate.anulite_block": "Block of Anulite",
   "block.weirdnessincarnate.anulite_ore": "Anulite Ore",
 
-  "block.weirdnessincarnate.magic_block": "Magic Block Thing",
-  "block.weirdnessincarnate.magic_block_two": "Other Magic Block Thing",
-
   "block.weirdnessincarnate.anulite_stair": "Anulite Stairs",
   "block.weirdnessincarnate.anulite_slab": "Anulite Slab",
 
-  "block.weirdnessincarnate.anulite_door": "Anulite Door",
-  "block.weirdnessincarnate.anulite_trapdoor": "Anulite Trapdoor",
-
-  "block.weirdnessincarnate.anulite_pressure_plate": "Anulite Pressure Plate",
-  "block.weirdnessincarnate.anulite_button": "Anulite Button",
-
-  "block.weirdnessincarnate.anulite_fence": "Anulite Fence",
-  "block.weirdnessincarnate.anulite_fence_gate": "Anulite Fence Gate",
-  "block.weirdnessincarnate.anulite_wall": "Anulite Wall",
-
-  "block.weirdnessincarnate.anulite_lamp": "Anulite Lamp",
-
-  "item.weirdnessincarnate.anulite_sword": "Anulite Sword",
-  "item.weirdnessincarnate.anulite_hoe": "Anulite Hoe",
-  "item.weirdnessincarnate.anulite_pickaxe": "Anulite Pickaxe",
-  "item.weirdnessincarnate.anulite_axe": "Anulite Axe",
-  "item.weirdnessincarnate.anulite_shovel": "Anulite Shovel",
-
-  "item.weirdnessincarnate.anulite_bow": "Anulite Bow",
-
   "item.weirdnessincarnate.gecko_spawn_egg": "Gecko Spawn Egg",
 
-  "item.weirdnessincarnate.anulite_hammer": "Anulite Hammer",
-
-  "item.weirdnessincarnate.anulite_helmet": "Anulite Helmet",
-  "item.weirdnessincarnate.anulite_chestplate": "Anulite Chestplate",
-  "item.weirdnessincarnate.anulite_leggings": "Anulite Leggings",
-  "item.weirdnessincarnate.anulite_boots": "Anulite Boots",
-
-  "creativetab.weirdnessincarnate.anulite_items" : "Anulite Items",
-  "creativetab.weirdnessincarnate.anulite_blocks" : "Anulite Blocks",
-
+  "creativetab.weirdnessincarnate.funny_stuff" : "The Strange Items of Weirdness Incarnate",
   "effect.weirdnessincarnate.slimey": "Slimey",
-
-  "tooltip.weirdnessincarnate.magic_block.tooltip": "Feedback Loop (Diamond/Gold)",
-  "tooltip.weirdnessincarnate.chisel" : "Turns some blocks into other blocks. Hold Shift for more information.",
-  "tooltip.weirdnessincarnate.chisel.shift_down" : "Use on stone, end stone, oak doors, smooth stone and anulite blocks.",
-  "tooltip.weirdnessincarnate.burger.tooltip" : "YUMMY",
 
   "entity.weirdnessincarnate.gecko": "Gecko",
 

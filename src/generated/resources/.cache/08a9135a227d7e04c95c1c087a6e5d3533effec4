@@ -1,8 +1,1 @@
-// 1.21.1	2026-03-28T21:32:25.2346297	Tags for minecraft:item mod id weirdnessincarnate
-ac17f741cbd8d7ba56f509474c525e9cc03c6e1e data/minecraft/tags/item/axes.json
-8cd2c08de0ef47ac5917c23fa458fb7444c24a6f data/minecraft/tags/item/hoes.json
-4e6168adb36615b76bb6936be1ab74f7859ea6db data/minecraft/tags/item/pickaxes.json
-d8b2c74952e2c1e2ca349bc49f67881d22b7a1c4 data/minecraft/tags/item/shovels.json
-5137c08bacd42295d44f75a64e51dbd0f2e01b88 data/minecraft/tags/item/swords.json
-d79efc05607e1cce541cd54ddf5e3301bd36f470 data/minecraft/tags/item/trimmable_armor.json
-9f5ebd30d2526d2c47df87c9c24815569d7e397b data/weirdnessincarnate/tags/item/transformable_items.json
+// 1.21.1	2026-03-31T20:07:07.5666087	Tags for minecraft:item mod id weirdnessincarnate

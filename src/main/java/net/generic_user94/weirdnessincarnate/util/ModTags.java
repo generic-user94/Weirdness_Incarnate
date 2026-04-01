@@ -12,10 +12,6 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks {
 
-        public static final TagKey<Block> NEEDS_ANULITE_TOOL = createTag("needs_anulite_tool");
-        public static final TagKey<Block> INCORRECT_FOR_ANULITE_TOOL = createTag("incorrect_for_anulite_tool");
-
-
 
 
         private static TagKey<Block> createTag(String name){
@@ -24,7 +20,7 @@ public class ModTags {
     }
     public static class Items {
 
-        public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
+
 
 
 

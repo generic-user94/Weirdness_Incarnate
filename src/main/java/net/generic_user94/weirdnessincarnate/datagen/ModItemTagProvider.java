@@ -22,31 +22,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.ANULITE.get())
-                .add(Items.STICK)
-                .add(Items.COAL);
-
-        tag(ItemTags.SWORDS)
-                .add(ModItems.ANULITE_SWORD.get());
-
-        tag(ItemTags.AXES)
-                .add(ModItems.ANULITE_AXE.get());
-
-        tag(ItemTags.PICKAXES)
-                .add(ModItems.ANULITE_PICKAXE.get());
-
-        tag(ItemTags.SHOVELS)
-                .add(ModItems.ANULITE_SHOVEL.get());
-
-        tag(ItemTags.HOES)
-                .add(ModItems.ANULITE_HOE.get());
-
-        this.tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.ANULITE_HELMET.get())
-                .add(ModItems.ANULITE_CHESTPLATE.get())
-                .add(ModItems.ANULITE_LEGGINGS.get())
-                .add(ModItems.ANULITE_BOOTS.get());
 
     }
 

@@ -50,25 +50,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BURGER.get());
         basicItem(ModItems.SLIME_BUCKET.get());
 
-        buttonItem(ModBlocks.ANULITE_BUTTON, ModBlocks.ANULITE_BLOCK);
-        fenceItem(ModBlocks.ANULITE_FENCE, ModBlocks.ANULITE_BLOCK);
-        wallItem(ModBlocks.ANULITE_WALL, ModBlocks.ANULITE_BLOCK);
-
-        basicItem(ModBlocks.ANULITE_DOOR.asItem());
-
-        handheldItem(ModItems.ANULITE_SWORD.get());
-        handheldItem(ModItems.ANULITE_PICKAXE.get());
-        handheldItem(ModItems.ANULITE_AXE.get());
-        handheldItem(ModItems.ANULITE_HOE.get());
-        handheldItem(ModItems.ANULITE_SHOVEL.get());
-
-        handheldItem(ModItems.ANULITE_HAMMER.get());
-
-        trimmedArmorItem(ModItems.ANULITE_HELMET);
-        trimmedArmorItem(ModItems.ANULITE_CHESTPLATE);
-        trimmedArmorItem(ModItems.ANULITE_LEGGINGS);
-        trimmedArmorItem(ModItems.ANULITE_BOOTS);
-
         withExistingParent(ModItems.GECKO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }

@@ -1,6 +1,0 @@
-{
-  "parent": "weirdnessincarnate:item/anulite_bow",
-  "textures": {
-    "layer0": "weirdnessincarnate:item/anulite_bow_pulling_1"
-  }
-}

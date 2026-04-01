@@ -23,28 +23,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ANULITE_BLOCK.get())
-                .add(ModBlocks.ANULITE_ORE.get())
-                .add(ModBlocks.MAGIC_BLOCK.get())
-                .add(ModBlocks.MAGIC_BLOCK_TWO.get());
+                .add(ModBlocks.ANULITE_ORE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ANULITE_BLOCK.get())
-                .add(ModBlocks.ANULITE_ORE.get())
-                .add(ModBlocks.MAGIC_BLOCK.get())
-                .add(ModBlocks.MAGIC_BLOCK_TWO.get());
-
-        tag(BlockTags.FENCES)
-                .add(ModBlocks.ANULITE_FENCE.get());
-        tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.ANULITE_FENCE_GATE.get());
-        tag(BlockTags.WALLS)
-                .add(ModBlocks.ANULITE_WALL.get());
-
-        tag(ModTags.Blocks.NEEDS_ANULITE_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL);
-        tag(ModTags.Blocks.INCORRECT_FOR_ANULITE_TOOL)
-                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
-                .remove(ModTags.Blocks.NEEDS_ANULITE_TOOL);
+                .add(ModBlocks.ANULITE_ORE.get());
 
     }
 }

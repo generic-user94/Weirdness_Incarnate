@@ -1,8 +1,3 @@
-// 1.21.1	2026-03-28T21:32:25.22631	Tags for minecraft:block mod id weirdnessincarnate
-9fca35157bc0e02171ff169514b793bf7b1837f6 data/minecraft/tags/block/fences.json
-a7c97863b84b457dfa32730b68f8f7034f3b9dc6 data/minecraft/tags/block/fence_gates.json
-e750b27e4368d09e6a304a72a6aaaa54230e8c43 data/minecraft/tags/block/mineable/pickaxe.json
-e750b27e4368d09e6a304a72a6aaaa54230e8c43 data/minecraft/tags/block/needs_iron_tool.json
-6c39f7146f16cfd4aec80b11e7f1942ec3f708e7 data/minecraft/tags/block/walls.json
-a85eacfd37a38f48015ff9d20ee61a4bb8b9eddf data/weirdnessincarnate/tags/block/incorrect_for_anulite_tool.json
-32b13946c4cd1f944b029659ccce5fcb2adad4ff data/weirdnessincarnate/tags/block/needs_anulite_tool.json
+// 1.21.1	2026-03-31T20:07:07.5179527	Tags for minecraft:block mod id weirdnessincarnate
+aa8cff9eb4de548a8bbf591685196575317a42cd data/minecraft/tags/block/mineable/pickaxe.json
+aa8cff9eb4de548a8bbf591685196575317a42cd data/minecraft/tags/block/needs_iron_tool.json
