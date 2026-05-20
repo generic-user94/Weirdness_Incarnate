@@ -37,6 +37,11 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.GECKO_SPAWN_EGG);
 
+                        output.accept(ModItems.BLUE_GECKO_HELMET);
+                        output.accept(ModItems.BLUE_GECKO_CHESTPLATE);
+                        output.accept(ModItems.BLUE_GECKO_LEGGINGS);
+                        output.accept(ModItems.BLUE_GECKO_BOOTS);
+
                     }).build());
 
 

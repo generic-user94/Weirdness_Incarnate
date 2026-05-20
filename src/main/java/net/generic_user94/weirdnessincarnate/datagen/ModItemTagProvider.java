@@ -23,6 +23,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.BLUE_GECKO_HELMET.get())
+                .add(ModItems.BLUE_GECKO_CHESTPLATE.get())
+                .add(ModItems.BLUE_GECKO_LEGGINGS.get())
+                .add(ModItems.BLUE_GECKO_BOOTS.get());
     }
 
 }

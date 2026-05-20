@@ -30,6 +30,18 @@ public class ModItems {
             () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31afaf, 0xffac00,
                     new Item.Properties()));
 
+    public static final DeferredItem<ArmorItem> BLUE_GECKO_HELMET = ITEMS.register("blue_gecko_helmet",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_GECKO_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(20))));
+    public static final DeferredItem<ArmorItem> BLUE_GECKO_CHESTPLATE = ITEMS.register("blue_gecko_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_GECKO_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(20))));
+    public static final DeferredItem<ArmorItem> BLUE_GECKO_LEGGINGS = ITEMS.register("blue_gecko_leggings",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_GECKO_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(20))));
+    public static final DeferredItem<ArmorItem> BLUE_GECKO_BOOTS = ITEMS.register("blue_gecko_boots",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_GECKO_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(20))));
 
 
     public static void register(IEventBus eventBus){

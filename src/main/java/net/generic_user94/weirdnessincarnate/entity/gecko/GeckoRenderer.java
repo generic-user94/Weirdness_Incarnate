@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEntity>> {
 
     public GeckoRenderer(EntityRendererProvider.Context context) {
-        super(context, new GeckoModel<>(context.bakeLayer(GeckoModel.LAYER_LOCATION)), 0.25f);
+        super(context, new GeckoModel<>(context.bakeLayer(GeckoModel.LAYER_LOCATION)), 14f);
     }
 
     @Override
@@ -20,8 +20,9 @@ public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEnti
 
     @Override
     public void render(GeckoEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {
-        if(entity.isBaby()){
-            poseStack.scale(0.45f, 0.45f, 0.45f);
+
+        if (entity.isBaby()){
+            poseStack.scale(2f, 2f, 2f);
         } else {
             poseStack.scale(1f, 1f, 1f);
         }

@@ -1,5 +1,6 @@
 package net.generic_user94.weirdnessincarnate;
 
+import com.mojang.logging.LogUtils;
 import net.generic_user94.weirdnessincarnate.block.ModBlocks;
 import net.generic_user94.weirdnessincarnate.component.ModDataComponents;
 import net.generic_user94.weirdnessincarnate.effect.ModEffects;
@@ -8,22 +9,22 @@ import net.generic_user94.weirdnessincarnate.entity.gecko.GeckoRenderer;
 import net.generic_user94.weirdnessincarnate.item.ModItems;
 import net.generic_user94.weirdnessincarnate.util.ModItemProperties;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+
+
+
 import net.neoforged.api.distmarker.Dist;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
-
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(WeirdnessIncarnate.MOD_ID)

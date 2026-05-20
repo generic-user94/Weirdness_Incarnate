@@ -52,6 +52,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent(ModItems.GECKO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
+        trimmedArmorItem(ModItems.BLUE_GECKO_HELMET);
+        trimmedArmorItem(ModItems.BLUE_GECKO_CHESTPLATE);
+        trimmedArmorItem(ModItems.BLUE_GECKO_LEGGINGS);
+        trimmedArmorItem(ModItems.BLUE_GECKO_BOOTS);
+
     }
 
     // Shoutout to El_Redstoniano for making this

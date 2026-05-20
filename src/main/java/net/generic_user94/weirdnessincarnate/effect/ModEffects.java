@@ -25,6 +25,14 @@ public class ModEffects {
                             ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "slimey"), -0.25f,
                             AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
+    public static final Holder<MobEffect> FLIGHT_EFFECT = MOB_EFFECTS.register("flight",
+            () -> new SlimeyEffect(MobEffectCategory.NEUTRAL, 0x87cefa)
+                    .addAttributeModifier(Attributes.GRAVITY,
+                            ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "flight"), -0.08,
+                            AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+
+
+
 
 
 

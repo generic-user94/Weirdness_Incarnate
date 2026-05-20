@@ -12,8 +12,18 @@
 
   "item.weirdnessincarnate.gecko_spawn_egg": "Gecko Spawn Egg",
 
+  "item.weirdnessincarnate.blue_gecko_helmet":"Blue Gecko Helmet",
+  "item.weirdnessincarnate.blue_gecko_chestplate":"Blue Gecko Chestplate",
+  "item.weirdnessincarnate.blue_gecko_leggings":"Blue Gecko Leggings",
+  "item.weirdnessincarnate.blue_gecko_boots":"Blue Gecko Boots",
+
   "creativetab.weirdnessincarnate.funny_stuff" : "The Strange Items of Weirdness Incarnate",
+
   "effect.weirdnessincarnate.slimey": "Slimey",
+  "effect.weirdnessincarnate.flight": "Flight!",
+
+  "key.weirdnessincarnate.flight_up" : "Fly Up (Gecko Armors)",
+  "key.weirdnessincarnate.flight_down" : "Fly Down (Gecko Armors)",
 
   "entity.weirdnessincarnate.gecko": "Gecko",
 

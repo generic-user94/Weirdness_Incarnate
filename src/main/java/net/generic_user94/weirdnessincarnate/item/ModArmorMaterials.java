@@ -19,24 +19,23 @@ import java.util.function.Supplier;
 
 public class ModArmorMaterials {
 
-
-    public static final Holder<ArmorMaterial> ANULITE_ARMOR_MATERIAL = register("anulite",
+    public static final Holder<ArmorMaterial> BLUE_GECKO_ARMOR_MATERIAL = register("anulite",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
 
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.BOOTS, 9);
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.BODY, 11);
+                attribute.put(ArmorItem.Type.BOOTS, 1);
+                attribute.put(ArmorItem.Type.LEGGINGS, 3);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 6);
+                attribute.put(ArmorItem.Type.HELMET, 2);
+                attribute.put(ArmorItem.Type.BODY, 7);
 
-            }), 30, 6f, 5, () -> ModItems.ANULITE.get());
+            }), 25, 0f, 0, () -> ModItems.GECKO_SPAWN_EGG.get());
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,
                                                   Supplier<Item> ingredientItem) {
         ResourceLocation location = ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, name);
-        Holder<SoundEvent> equipSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
+        Holder<SoundEvent> equipSound = SoundEvents.ARMOR_EQUIP_GOLD;
         Supplier<Ingredient> ingredient = () -> Ingredient.of(ingredientItem.get());
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));
 

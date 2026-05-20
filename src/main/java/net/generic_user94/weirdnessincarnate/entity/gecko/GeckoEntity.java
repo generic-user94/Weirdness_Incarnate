@@ -19,7 +19,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
-import org.jetbrains.annotations.Nullable;
 
 public class GeckoEntity extends Animal {
 
@@ -64,7 +63,7 @@ public class GeckoEntity extends Animal {
     }
 
     @Override
-    public @Nullable AgeableMob getBreedOffspring(ServerLevel level, AgeableMob ageableMob) {
+    public  AgeableMob getBreedOffspring(ServerLevel level, AgeableMob ageableMob) {
         return ModEntities.GECKO.get().create(level);
     }
 
