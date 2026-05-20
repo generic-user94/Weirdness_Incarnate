@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weirdnessincarnate:item/blue_gecko_helmet",
+    "layer1": "minecraft:trims/items/helmet_trim_amethyst"
+  }
+}

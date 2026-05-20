@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weirdnessincarnate:item/blue_gecko_boots",
+    "layer1": "minecraft:trims/items/boots_trim_copper"
+  }
+}
