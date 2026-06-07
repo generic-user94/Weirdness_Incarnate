@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLUE_GECKO_LEGGINGS);
                         output.accept(ModItems.BLUE_GECKO_BOOTS);
 
+                        output.accept(ModItems.CASIN_MUSIC_DISC);
+
                     }).build());
 
 

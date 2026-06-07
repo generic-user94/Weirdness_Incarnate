@@ -46,9 +46,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ANULITE.get());
         basicItem(ModItems.RAW_ANULITE.get());
 
-        //handheldItem(ModItems.CHISEL.get());
         basicItem(ModItems.BURGER.get());
         basicItem(ModItems.SLIME_BUCKET.get());
+
+        basicItem(ModItems.CASIN_MUSIC_DISC.get());
 
         withExistingParent(ModItems.GECKO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 

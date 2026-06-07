@@ -2,14 +2,12 @@ package net.generic_user94.weirdnessincarnate.item;
 
 import net.generic_user94.weirdnessincarnate.WeirdnessIncarnate;
 import net.generic_user94.weirdnessincarnate.entity.ModEntities;
-import net.minecraft.network.chat.Component;
+import net.generic_user94.weirdnessincarnate.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
-import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WeirdnessIncarnate.MOD_ID);
@@ -43,6 +41,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.BLUE_GECKO_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(20))));
 
+    public static final DeferredItem<Item> CASIN_MUSIC_DISC = ITEMS.register("casin_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).jukeboxPlayable(ModSounds.CASIN_KEY)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -1,4 +1,4 @@
-// 1.21.1	2026-03-31T20:55:55.8762432	Item Models: weirdnessincarnate
+// 1.21.1	2026-06-06T21:48:54.5302721	Item Models: weirdnessincarnate
 6e91e85e725bdb50a948fd82d1d9504fcefcf622 assets/weirdnessincarnate/models/item/anulite.json
 91e336757d56eed740febac6bc395e2220f3ff94 assets/weirdnessincarnate/models/item/blue_gecko_boots.json
 711a613fdfe79cf2ae45fdee6a7991a0b3d357e3 assets/weirdnessincarnate/models/item/blue_gecko_boots_amethyst_trim.json
@@ -45,6 +45,7 @@ ecedcc1a279b317a9c039c2f22c9347255da1621 assets/weirdnessincarnate/models/item/b
 33ddb1699d2017eacc7e6dd98fffe1f67905a50f assets/weirdnessincarnate/models/item/blue_gecko_leggings_quartz_trim.json
 f7ab5214969dcf2f6d1ee016696c20b55213e6cf assets/weirdnessincarnate/models/item/blue_gecko_leggings_redstone_trim.json
 77d138c6ab10084b4eb4830f98d040262fa3f590 assets/weirdnessincarnate/models/item/burger.json
+916886776f814b525a7a228d93a2b1e6c91b0329 assets/weirdnessincarnate/models/item/casin_music_disc.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/weirdnessincarnate/models/item/gecko_spawn_egg.json
 fa048bdc61f65382ea534fbbd369c06aa9804a5c assets/weirdnessincarnate/models/item/raw_anulite.json
 04d8feeb9cae5c7d24a6fbae9421799ec923b074 assets/weirdnessincarnate/models/item/slime_bucket.json

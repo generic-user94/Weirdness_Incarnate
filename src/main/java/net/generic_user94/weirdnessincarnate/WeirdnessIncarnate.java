@@ -7,6 +7,7 @@ import net.generic_user94.weirdnessincarnate.effect.ModEffects;
 import net.generic_user94.weirdnessincarnate.entity.ModEntities;
 import net.generic_user94.weirdnessincarnate.entity.gecko.GeckoRenderer;
 import net.generic_user94.weirdnessincarnate.item.ModItems;
+import net.generic_user94.weirdnessincarnate.sound.ModSounds;
 import net.generic_user94.weirdnessincarnate.util.ModItemProperties;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 
@@ -52,6 +53,8 @@ public class WeirdnessIncarnate {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+        ModSounds.register(modEventBus);
+
 
         ModEffects.register(modEventBus);
 
