@@ -42,9 +42,10 @@ public class GeckoEntity extends Animal {
 
         this.goalSelector.addGoal(3334, new FollowParentGoal(this, 1.25));
 
-        this.goalSelector.addGoal(3335, new WaterAvoidingRandomFlyingGoal(this, 1.0));
-        this.goalSelector.addGoal(3336, new LookAtPlayerGoal(this, Player.class, 6.0F));
-        this.goalSelector.addGoal(3337, new RandomLookAroundGoal(this));
+        this.goalSelector.addGoal(3335, new WaterAvoidingRandomStrollGoal(this, 1.0));
+        this.goalSelector.addGoal(4336, new WaterAvoidingRandomFlyingGoal(this, 1.0f));
+        this.goalSelector.addGoal(4337, new LookAtPlayerGoal(this, Player.class, 6.0F));
+        this.goalSelector.addGoal(4338, new RandomLookAroundGoal(this));
 
     }
 

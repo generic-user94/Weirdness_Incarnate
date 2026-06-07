@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEntity>> {
 
     public GeckoRenderer(EntityRendererProvider.Context context) {
-        super(context, new GeckoModel<>(context.bakeLayer(GeckoModel.LAYER_LOCATION)), 14f);
+        super(context, new GeckoModel<>(context.bakeLayer(GeckoModel.LAYER_LOCATION)), 1f);
     }
 
     @Override

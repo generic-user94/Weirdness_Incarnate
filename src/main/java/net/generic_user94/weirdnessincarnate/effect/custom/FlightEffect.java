@@ -17,13 +17,15 @@ public class FlightEffect extends MobEffect {
 
         if (ModClientEvents.FLIGHT_UP.get().isDown()) {
 
-            player.setDeltaMovement(player.getDeltaMovement().x, 1, player.getDeltaMovement().z);
-            player.sendSystemMessage(Component.literal("testing UP"));
+            player.setDeltaMovement(player.getDeltaMovement().x(), 1, player.getDeltaMovement().z());
 
         } else if (ModClientEvents.FLIGHT_DOWN.get().isDown()) {
 
-            player.setDeltaMovement(player.getDeltaMovement().x, -1, player.getDeltaMovement().z);
-            player.sendSystemMessage(Component.literal("testing DOWN"));
+            player.setDeltaMovement(player.getDeltaMovement().x(), -1, player.getDeltaMovement().z());
+
+        } else {
+
+            player.setDeltaMovement(player.getDeltaMovement().x(), player.getDeltaMovement().z()*(1/10), player.getDeltaMovement().z());
 
         }
 
@@ -35,6 +37,6 @@ public class FlightEffect extends MobEffect {
 
     @Override
     public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
-        return super.shouldApplyEffectTickThisTick(duration, amplifier);
+        return true;
     }
 }
