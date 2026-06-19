@@ -58,6 +58,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.BLUE_GECKO_LEGGINGS);
         trimmedArmorItem(ModItems.BLUE_GECKO_BOOTS);
 
+        basicItem(ModItems.BRAT.get());
+
     }
 
     // Shoutout to El_Redstoniano for making this

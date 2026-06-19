@@ -2,7 +2,6 @@ package net.generic_user94.weirdnessincarnate.effect;
 
 import net.generic_user94.weirdnessincarnate.WeirdnessIncarnate;
 import net.generic_user94.weirdnessincarnate.effect.custom.FlightEffect;
-import net.generic_user94.weirdnessincarnate.effect.custom.SlimeyEffect;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -18,13 +17,6 @@ public class ModEffects {
 
     public static final DeferredRegister<MobEffect> MOB_EFFECTS =
             DeferredRegister.create(BuiltInRegistries.MOB_EFFECT, WeirdnessIncarnate.MOD_ID);
-
-
-    public static final Holder<MobEffect> SLIMEY_EFFECT = MOB_EFFECTS.register("slimey",
-            () -> new SlimeyEffect(MobEffectCategory.NEUTRAL, 0x36ebab)
-                    .addAttributeModifier(Attributes.MOVEMENT_SPEED,
-                            ResourceLocation.fromNamespaceAndPath(WeirdnessIncarnate.MOD_ID, "slimey"), -0.25f,
-                            AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
     public static final Holder<MobEffect> FLIGHT_EFFECT = MOB_EFFECTS.register("flight",
             () -> new FlightEffect(MobEffectCategory.NEUTRAL, 0x87cefa)

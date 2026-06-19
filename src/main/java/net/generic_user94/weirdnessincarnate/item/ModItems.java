@@ -2,6 +2,7 @@ package net.generic_user94.weirdnessincarnate.item;
 
 import net.generic_user94.weirdnessincarnate.WeirdnessIncarnate;
 import net.generic_user94.weirdnessincarnate.entity.ModEntities;
+import net.generic_user94.weirdnessincarnate.item.custom.BratItem;
 import net.generic_user94.weirdnessincarnate.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -43,6 +44,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> CASIN_MUSIC_DISC = ITEMS.register("casin_music_disc",
             () -> new Item(new Item.Properties().stacksTo(1).jukeboxPlayable(ModSounds.CASIN_KEY)));
+
+    public static final DeferredItem<Item> BRAT =ITEMS.register("subaru_brat",
+            () -> new BratItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

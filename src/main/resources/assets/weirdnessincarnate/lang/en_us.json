@@ -29,6 +29,10 @@
   "key.weirdnessincarnate.flight_down" : "Fly Down (Gecko Armors)",
 
   "entity.weirdnessincarnate.gecko": "Gecko",
+  "entity.weirdnessincarnate.brat": "Subaru Brat",
 
-  "block.minecraft.resin_block": "BEANS"
+  "item.weirdnessincarnate.subaru_brat": "Subaru Brat",
+
+  "death.attack.death.roadkill": "%1$s was hit by a car",
+  "death.attack.death.roadkill.player": "%1$s was hit by a car driven by %2$s"
 }

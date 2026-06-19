@@ -44,6 +44,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CASIN_MUSIC_DISC);
 
+                        output.accept(ModItems.BRAT);
+
                     }).build());
 
 

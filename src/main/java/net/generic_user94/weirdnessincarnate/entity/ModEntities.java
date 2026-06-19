@@ -1,6 +1,7 @@
 package net.generic_user94.weirdnessincarnate.entity;
 
 import net.generic_user94.weirdnessincarnate.WeirdnessIncarnate;
+import net.generic_user94.weirdnessincarnate.entity.brat.BratEntity;
 import net.generic_user94.weirdnessincarnate.entity.gecko.GeckoEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
@@ -19,6 +20,14 @@ public class ModEntities {
             ENTITY_TYPES.register("gecko", () -> EntityType.Builder.of(GeckoEntity::new, MobCategory.CREATURE)
                     .sized(0.75f, 0.35f)
                     .build("gecko"));
+
+    public static final Supplier<EntityType<BratEntity>> BRAT =
+            ENTITY_TYPES.register("subaru_brat",
+                    () -> EntityType.Builder.of(BratEntity::new, MobCategory.MISC)
+                            .sized(3f, 2f)
+                            .clientTrackingRange(10)
+                            .updateInterval(1)
+                            .build("subaru_brat"));
 
 
 

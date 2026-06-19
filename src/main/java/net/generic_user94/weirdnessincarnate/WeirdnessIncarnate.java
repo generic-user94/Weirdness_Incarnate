@@ -5,9 +5,11 @@ import net.generic_user94.weirdnessincarnate.block.ModBlocks;
 import net.generic_user94.weirdnessincarnate.component.ModDataComponents;
 import net.generic_user94.weirdnessincarnate.effect.ModEffects;
 import net.generic_user94.weirdnessincarnate.entity.ModEntities;
+import net.generic_user94.weirdnessincarnate.entity.brat.BratRenderer;
 import net.generic_user94.weirdnessincarnate.entity.gecko.GeckoRenderer;
 import net.generic_user94.weirdnessincarnate.item.ModItems;
 import net.generic_user94.weirdnessincarnate.sound.ModSounds;
+import net.generic_user94.weirdnessincarnate.util.ModDamageTypes;
 import net.generic_user94.weirdnessincarnate.util.ModItemProperties;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 
@@ -22,9 +24,11 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -55,7 +59,6 @@ public class WeirdnessIncarnate {
         ModDataComponents.register(modEventBus);
         ModSounds.register(modEventBus);
 
-
         ModEffects.register(modEventBus);
 
         ModEntities.register(modEventBus);
@@ -80,19 +83,23 @@ public class WeirdnessIncarnate {
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
-
-
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
+
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
             ModItemProperties.addCustomItemProperties();
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
 
+        }
+
+        @SubscribeEvent
+        public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerEntityRenderer(ModEntities.BRAT.get(), BratRenderer::new);
         }
     }
 }

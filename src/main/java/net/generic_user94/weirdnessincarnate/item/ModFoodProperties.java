@@ -18,7 +18,6 @@ public class ModFoodProperties {
             .effect(() -> new MobEffectInstance(MobEffects.SATURATION, 200), 1f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 4000), 1f)
             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 1f)
-            .effect(() -> new MobEffectInstance(ModEffects.SLIMEY_EFFECT, 4000), 1f)
             .build();
 
 }
